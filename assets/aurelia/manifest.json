@@ -1,0 +1,603 @@
+{
+  "generatedAt": "2026-11-17T01:16:45.230Z",
+  "note": "Fictional concept assets generated with Higgsfield for the AURELIA demo by Welegance. No real people, patients, staff or clinical results are depicted.",
+  "assets": [
+    {
+      "source": "production/raw/atmosphere-loop.mp4",
+      "model": "Kling v3.0 (kling3_0)",
+      "jobId": "cb3beaec-52fa-44f6-9bcc-216b4179cae6",
+      "createdAt": "2026-11-17T00:15:41.43799Z",
+      "params": {
+        "aspect_ratio": "16:9",
+        "duration": 6,
+        "height": 1080,
+        "mode": "pro",
+        "width": 1920
+      },
+      "prompt": "Slow continuous movement of warm champagne light gliding across the layered frosted glass sheets from the provided image; refractions and soft caustics drift gently, the glass layers stay perfectly still and unchanged, camera completely static. Calm, minimal, luxurious, loop-friendly. No liquid, no new objects, no particles, no text, no people.",
+      "outputs": [
+        {
+          "file": "public/assets/aurelia/atmosphere-loop.mp4",
+          "kb": 1061
+        },
+        {
+          "file": "public/assets/aurelia/atmosphere-loop-mobile.mp4",
+          "kb": 126
+        }
+      ],
+      "file": "atmosphere-loop.mp4",
+      "duration": "00:00:06.04",
+      "sourceSize": "1912x1080"
+    },
+    {
+      "source": "production/raw/atmosphere-still.webp",
+      "model": "GPT Image 2.6 (gpt_image_2_6)",
+      "jobId": "3f8dd644-b638-4d91-8ed3-16d14a418266",
+      "createdAt": "2026-11-17T00:14:46.147126Z",
+      "params": {
+        "aspect_ratio": "16:9",
+        "height": 1520,
+        "quality": "high",
+        "resolution": "2k",
+        "width": 2688
+      },
+      "prompt": "Abstract luxury still: several softly curved sheets of translucent frosted glass layered in depth, overlapping like delicate petals, with warm champagne light refracting through them and gentle caustic reflections. Warm ivory and pearl tones, soft gradients, extremely clean and minimal, calm premium beauty editorial atmosphere, shallow depth of field. No liquid, no containers, no stains, no particles, no text, no people, no logos. 16:9 photographic realism.",
+      "outputs": [
+        {
+          "file": "public/assets/aurelia/atmosphere-still.webp",
+          "kb": 76
+        },
+        {
+          "file": "public/assets/aurelia/atmosphere-still-640.webp",
+          "width": 640,
+          "kb": 7
+        },
+        {
+          "file": "public/assets/aurelia/atmosphere-still-1024.webp",
+          "width": 1024,
+          "kb": 13
+        },
+        {
+          "file": "public/assets/aurelia/atmosphere-still-1600.webp",
+          "width": 1600,
+          "kb": 34
+        },
+        {
+          "file": "public/assets/aurelia/atmosphere-still-2400.webp",
+          "width": 2400,
+          "kb": 76
+        }
+      ],
+      "sourceSize": "2688x1520",
+      "file": "atmosphere-still.webp"
+    },
+    {
+      "source": "production/raw/clinic-consultation-video.mp4",
+      "model": "Kling v3.0 (kling3_0)",
+      "jobId": "19a2baad-c92e-4e87-9452-83ae317bc689",
+      "createdAt": "2026-11-17T00:51:10.003317Z",
+      "params": {
+        "aspect_ratio": "16:9",
+        "duration": 6,
+        "height": 1080,
+        "mode": "pro",
+        "width": 1920
+      },
+      "prompt": "Very slow, smooth cinematic dolly forward into the exact consultation room shown in the image. Soft daylight shifts subtly across the travertine. Maintain exact architecture, furniture and materials. No people appearing, no morphing, no new objects, no text. Premium architectural cinematography.",
+      "outputs": [
+        {
+          "file": "public/assets/aurelia/clinic-consultation.mp4",
+          "kb": 2177
+        },
+        {
+          "file": "public/assets/aurelia/clinic-consultation-mobile.mp4",
+          "kb": 402
+        }
+      ],
+      "file": "clinic-consultation.mp4",
+      "duration": "00:00:06.04",
+      "sourceSize": "1912x1080"
+    },
+    {
+      "source": "production/raw/clinic-consultation-wide.webp",
+      "model": "GPT Image 2.6 (gpt_image_2_6)",
+      "jobId": "4b7021c0-9500-4634-bd0e-0b29bbcfbeb8",
+      "createdAt": "2026-11-17T00:49:43.660339Z",
+      "params": {
+        "aspect_ratio": "16:9",
+        "height": 1520,
+        "quality": "high",
+        "resolution": "2k",
+        "width": 2688
+      },
+      "prompt": "Same fictional clinic as the reference image, same materials and light: ivory limestone, travertine, curved walls, translucent ribbed glass, champagne metal, natural oak. Wide 16:9 architectural photograph of a private consultation room: a sculptural travertine desk with two elegant chairs facing each other, softly lit curved niche, ribbed-glass partition, large arched window with soft daylight. Calm, intimate, credible medical environment. No people, no text, no logos, no screens with content. Editorial architectural photography, photorealistic.",
+      "outputs": [
+        {
+          "file": "public/assets/aurelia/clinic-consultation-wide.webp",
+          "kb": 327
+        },
+        {
+          "file": "public/assets/aurelia/clinic-consultation-wide-640.webp",
+          "width": 640,
+          "kb": 28
+        },
+        {
+          "file": "public/assets/aurelia/clinic-consultation-wide-1024.webp",
+          "width": 1024,
+          "kb": 66
+        },
+        {
+          "file": "public/assets/aurelia/clinic-consultation-wide-1600.webp",
+          "width": 1600,
+          "kb": 170
+        },
+        {
+          "file": "public/assets/aurelia/clinic-consultation-wide-2400.webp",
+          "width": 2400,
+          "kb": 327
+        }
+      ],
+      "sourceSize": "2688x1520",
+      "file": "clinic-consultation-wide.webp"
+    },
+    {
+      "source": "production/raw/clinic-corridor-video.mp4",
+      "model": "Kling v3.0 (kling3_0)",
+      "jobId": "20c3ffa4-72a8-47f4-a95b-6703413f7a99",
+      "createdAt": "2026-11-17T00:49:43.92228Z",
+      "params": {
+        "aspect_ratio": "16:9",
+        "duration": 6,
+        "height": 1080,
+        "mode": "pro",
+        "width": 1920
+      },
+      "prompt": "Very slow, smooth cinematic forward walk through the exact curved corridor shown in the image, sunlight patterns drifting gently on the limestone floor. Maintain exact architecture and materials. No people, no morphing, no new objects, no text. Premium architectural cinematography.",
+      "outputs": [
+        {
+          "file": "public/assets/aurelia/clinic-corridor.mp4",
+          "kb": 2599
+        },
+        {
+          "file": "public/assets/aurelia/clinic-corridor-mobile.mp4",
+          "kb": 502
+        }
+      ],
+      "file": "clinic-corridor.mp4",
+      "duration": "00:00:06.04",
+      "sourceSize": "1912x1080"
+    },
+    {
+      "source": "production/raw/clinic-corridor.webp",
+      "model": "GPT Image 2.6 (gpt_image_2_6)",
+      "jobId": "b5c1340a-cf17-4fd9-bd37-886cdcae16e8",
+      "createdAt": "2026-11-17T00:11:28.131882Z",
+      "params": {
+        "aspect_ratio": "16:9",
+        "height": 1520,
+        "quality": "high",
+        "resolution": "2k",
+        "width": 2688
+      },
+      "prompt": "Same fictional clinic as the reference image, a different space within it. High-end aesthetic medicine clinic interior corridor, same architectural design language as the reception: ivory limestone, elegant curved walls, translucent fluted glass partitions, subtle champagne metal accents, soft warm indirect illumination, exceptionally refined minimalist architecture. Professional medical credibility, beautiful architectural depth, editorial photorealism, 16:9, no people, no logos, no text.",
+      "outputs": [
+        {
+          "file": "public/assets/aurelia/clinic-corridor.webp",
+          "kb": 299
+        },
+        {
+          "file": "public/assets/aurelia/clinic-corridor-640.webp",
+          "width": 640,
+          "kb": 27
+        },
+        {
+          "file": "public/assets/aurelia/clinic-corridor-1024.webp",
+          "width": 1024,
+          "kb": 62
+        },
+        {
+          "file": "public/assets/aurelia/clinic-corridor-1600.webp",
+          "width": 1600,
+          "kb": 159
+        },
+        {
+          "file": "public/assets/aurelia/clinic-corridor-2400.webp",
+          "width": 2400,
+          "kb": 299
+        }
+      ],
+      "sourceSize": "2688x1520",
+      "file": "clinic-corridor.webp"
+    },
+    {
+      "source": "production/raw/clinic-reception-video.mp4",
+      "model": "Kling v3.0 (kling3_0)",
+      "jobId": "44187ebe-71e0-4895-845e-7286e2400267",
+      "createdAt": "2026-11-17T00:11:28.6284Z",
+      "params": {
+        "aspect_ratio": "16:9",
+        "duration": 6,
+        "height": 1080,
+        "mode": "pro",
+        "width": 1920
+      },
+      "prompt": "Very slow elegant cinematic dolly forward through the exact clinic reception shown in the reference image. Maintain architectural geometry, material consistency, furniture placement and realistic lighting. Soft atmospheric depth, exquisite travertine texture, understated camera movement, no morphing, no changing objects, no people appearing, no text. Premium architectural cinematography. Six seconds.",
+      "outputs": [
+        {
+          "file": "public/assets/aurelia/clinic-reception.mp4",
+          "kb": 3417
+        },
+        {
+          "file": "public/assets/aurelia/clinic-reception-mobile.mp4",
+          "kb": 623
+        }
+      ],
+      "file": "clinic-reception.mp4",
+      "duration": "00:00:06.04",
+      "sourceSize": "1912x1080"
+    },
+    {
+      "source": "production/raw/clinic-reception.webp",
+      "model": "GPT Image 2.6 (gpt_image_2_6)",
+      "jobId": "395c11b2-5da6-4bd1-abc9-767ecc49d956",
+      "createdAt": "2026-11-17T00:09:20.030201Z",
+      "params": {
+        "aspect_ratio": "16:9",
+        "height": 1520,
+        "quality": "high",
+        "resolution": "2k",
+        "width": 2688
+      },
+      "prompt": "Extraordinary luxury dermatology and aesthetic medicine clinic reception in Madrid, fictional contemporary boutique medical practice. Warm ivory limestone architecture, sculptural travertine reception desk, translucent ribbed-glass partitions, soft indirect lighting, champagne metal accents, natural oak details, sophisticated modern furniture, beautiful restrained high-end interior architecture. Quiet and welcoming medical environment with credible architectural details. Architectural Digest editorial photography, cinematic natural light, photorealistic materials, 16:9. No text, logos or people.",
+      "outputs": [
+        {
+          "file": "public/assets/aurelia/clinic-reception.webp",
+          "kb": 354
+        },
+        {
+          "file": "public/assets/aurelia/clinic-reception-640.webp",
+          "width": 640,
+          "kb": 29
+        },
+        {
+          "file": "public/assets/aurelia/clinic-reception-1024.webp",
+          "width": 1024,
+          "kb": 68
+        },
+        {
+          "file": "public/assets/aurelia/clinic-reception-1600.webp",
+          "width": 1600,
+          "kb": 180
+        },
+        {
+          "file": "public/assets/aurelia/clinic-reception-2400.webp",
+          "width": 2400,
+          "kb": 354
+        }
+      ],
+      "sourceSize": "2688x1520",
+      "file": "clinic-reception.webp"
+    },
+    {
+      "source": "production/raw/clinic-treatment-video.mp4",
+      "model": "Kling v3.0 (kling3_0)",
+      "jobId": "b1776813-57c2-497a-bc63-ff2127408d5b",
+      "createdAt": "2026-11-17T00:50:47.646207Z",
+      "params": {
+        "aspect_ratio": "16:9",
+        "duration": 6,
+        "height": 1080,
+        "mode": "pro",
+        "width": 1920
+      },
+      "prompt": "Very slow, smooth cinematic lateral camera glide across the exact treatment room shown in the image, gentle parallax. Maintain exact architecture, equipment and materials. No people, no morphing, no new objects, no text. Premium architectural cinematography.",
+      "outputs": [
+        {
+          "file": "public/assets/aurelia/clinic-treatment.mp4",
+          "kb": 1513
+        },
+        {
+          "file": "public/assets/aurelia/clinic-treatment-mobile.mp4",
+          "kb": 284
+        }
+      ],
+      "file": "clinic-treatment.mp4",
+      "duration": "00:00:06.04",
+      "sourceSize": "1912x1080"
+    },
+    {
+      "source": "production/raw/clinic-treatment-wide.webp",
+      "model": "GPT Image 2.6 (gpt_image_2_6)",
+      "jobId": "c0f66ece-831f-4013-8e91-05ca523161dd",
+      "createdAt": "2026-11-17T00:49:43.873825Z",
+      "params": {
+        "aspect_ratio": "16:9",
+        "height": 1520,
+        "quality": "high",
+        "resolution": "2k",
+        "width": 2688
+      },
+      "prompt": "Same fictional clinic as the reference image, same materials and light. Wide 16:9 architectural photograph of a refined treatment room: modern ivory treatment bed, one discreet unbranded clinical device, clean organized surfaces, oak cabinetry, curved limestone wall with indirect light, ribbed-glass door. Restrained, hygienic, medically credible, serene. No people, no procedure, no text, no logos. Editorial architectural photography, photorealistic.",
+      "outputs": [
+        {
+          "file": "public/assets/aurelia/clinic-treatment-wide.webp",
+          "kb": 232
+        },
+        {
+          "file": "public/assets/aurelia/clinic-treatment-wide-640.webp",
+          "width": 640,
+          "kb": 22
+        },
+        {
+          "file": "public/assets/aurelia/clinic-treatment-wide-1024.webp",
+          "width": 1024,
+          "kb": 48
+        },
+        {
+          "file": "public/assets/aurelia/clinic-treatment-wide-1600.webp",
+          "width": 1600,
+          "kb": 122
+        },
+        {
+          "file": "public/assets/aurelia/clinic-treatment-wide-2400.webp",
+          "width": 2400,
+          "kb": 232
+        }
+      ],
+      "sourceSize": "2688x1520",
+      "file": "clinic-treatment-wide.webp"
+    },
+    {
+      "source": "production/raw/dermatology-editorial.webp",
+      "model": "GPT Image 2.6 (gpt_image_2_6)",
+      "jobId": "45a23d80-a85e-4645-8c52-2eda264e67b6",
+      "createdAt": "2026-11-17T00:09:19.859205Z",
+      "params": {
+        "aspect_ratio": "4:5",
+        "height": 2240,
+        "quality": "high",
+        "resolution": "2k",
+        "width": 1792
+      },
+      "prompt": "High-end dermatology beauty editorial close-up of a fictional adult woman with genuine skin texture and gentle natural complexion, elegant soft side light, warm taupe and ivory background, timeless luxury beauty campaign art direction. Natural pores, realistic skin, no artificial smoothing, no retouching claims, no text or logos. Vertical 4:5.",
+      "outputs": [
+        {
+          "file": "public/assets/aurelia/dermatology-editorial.webp",
+          "kb": 213
+        },
+        {
+          "file": "public/assets/aurelia/dermatology-editorial-640.webp",
+          "width": 640,
+          "kb": 26
+        },
+        {
+          "file": "public/assets/aurelia/dermatology-editorial-1024.webp",
+          "width": 1024,
+          "kb": 60
+        },
+        {
+          "file": "public/assets/aurelia/dermatology-editorial-1600.webp",
+          "width": 1600,
+          "kb": 153
+        },
+        {
+          "file": "public/assets/aurelia/dermatology-editorial-2400.webp",
+          "width": 1792,
+          "kb": 213
+        }
+      ],
+      "sourceSize": "1792x2240",
+      "file": "dermatology-editorial.webp"
+    },
+    {
+      "source": "production/raw/sculpture-reference.webp",
+      "model": "GPT Image 2.6 (gpt_image_2_6)",
+      "jobId": "c623b0ff-5650-41c9-aee1-2183e5668909",
+      "createdAt": "2026-11-17T00:09:19.688686Z",
+      "params": {
+        "aspect_ratio": "1:1",
+        "height": 2048,
+        "quality": "high",
+        "resolution": "2k",
+        "width": 2048
+      },
+      "prompt": "Minimal contemporary art sculpture representing the layered beauty and complexity of natural human skin, made from softly curved translucent frosted glass, delicate champagne-tinted resin and ivory ceramic. Organic petal-like concentric forms, elegant minimal sculptural geometry, subtle studio light, warm neutral seamless background. Premium luxury beauty campaign object photography, visually suitable as art direction reference for an interactive WebGL sculpture. No text, no logos, no anatomical gore, no fantastical visual noise.",
+      "outputs": [
+        {
+          "file": "public/assets/aurelia/sculpture-reference.webp",
+          "kb": 134
+        },
+        {
+          "file": "public/assets/aurelia/sculpture-reference-640.webp",
+          "width": 640,
+          "kb": 14
+        },
+        {
+          "file": "public/assets/aurelia/sculpture-reference-1024.webp",
+          "width": 1024,
+          "kb": 31
+        },
+        {
+          "file": "public/assets/aurelia/sculpture-reference-1600.webp",
+          "width": 1600,
+          "kb": 76
+        },
+        {
+          "file": "public/assets/aurelia/sculpture-reference-2400.webp",
+          "width": 2048,
+          "kb": 134
+        }
+      ],
+      "sourceSize": "2048x2048",
+      "file": "sculpture-reference.webp"
+    },
+    {
+      "source": "production/raw/skin-macro.webp",
+      "model": "GPT Image 2.6 (gpt_image_2_6)",
+      "jobId": "41bd8491-0b00-4b32-8e1b-c29e640559ad",
+      "createdAt": "2026-11-17T00:09:20.218748Z",
+      "params": {
+        "aspect_ratio": "1:1",
+        "height": 2048,
+        "quality": "high",
+        "resolution": "2k",
+        "width": 2048
+      },
+      "prompt": "Ultra-realistic editorial macro photography of natural adult human skin with authentic texture, subtle pores, tiny natural imperfections and delicate directional lighting. Sophisticated aesthetic dermatology scientific editorial, warm porcelain and champagne tones, extraordinarily detailed but not uncomfortable, professional macro lens realism. Abstract enough to function as a premium website section background. No cosmetic products, no text, no medical claims, no excessive retouching.",
+      "outputs": [
+        {
+          "file": "public/assets/aurelia/skin-macro.webp",
+          "kb": 252
+        },
+        {
+          "file": "public/assets/aurelia/skin-macro-640.webp",
+          "width": 640,
+          "kb": 27
+        },
+        {
+          "file": "public/assets/aurelia/skin-macro-1024.webp",
+          "width": 1024,
+          "kb": 68
+        },
+        {
+          "file": "public/assets/aurelia/skin-macro-1600.webp",
+          "width": 1600,
+          "kb": 164
+        },
+        {
+          "file": "public/assets/aurelia/skin-macro-2400.webp",
+          "width": 2048,
+          "kb": 252
+        }
+      ],
+      "sourceSize": "2048x2048",
+      "file": "skin-macro.webp"
+    },
+    {
+      "source": "production/raw/skincare-still-life.webp",
+      "model": "GPT Image 2.6 (gpt_image_2_6)",
+      "jobId": "c455dd1a-17b0-425e-bacd-d449843b8a28",
+      "createdAt": "2026-11-17T00:09:21.368399Z",
+      "params": {
+        "aspect_ratio": "4:5",
+        "height": 2240,
+        "quality": "high",
+        "resolution": "2k",
+        "width": 1792
+      },
+      "prompt": "Abstract luxury dermatology editorial still life, clean translucent glass vessels with no branding, smooth limestone plinths, warm champagne daylight, elegant shadows and minimalist sophisticated composition. Represents scientific precision and natural textures without implying pharmaceutical products or clinical efficacy. Premium studio photography, realistic materials, no labels, no logos, no text.",
+      "outputs": [
+        {
+          "file": "public/assets/aurelia/skincare-still-life.webp",
+          "kb": 352
+        },
+        {
+          "file": "public/assets/aurelia/skincare-still-life-640.webp",
+          "width": 640,
+          "kb": 55
+        },
+        {
+          "file": "public/assets/aurelia/skincare-still-life-1024.webp",
+          "width": 1024,
+          "kb": 116
+        },
+        {
+          "file": "public/assets/aurelia/skincare-still-life-1600.webp",
+          "width": 1600,
+          "kb": 261
+        },
+        {
+          "file": "public/assets/aurelia/skincare-still-life-2400.webp",
+          "width": 1792,
+          "kb": 352
+        }
+      ],
+      "sourceSize": "1792x2240",
+      "file": "skincare-still-life.webp"
+    },
+    {
+      "source": "production/raw/surgery-suite.webp",
+      "model": "GPT Image 2.6 (gpt_image_2_6)",
+      "jobId": "93c68f35-f848-4b17-979a-55d0e361c099",
+      "createdAt": "2026-11-17T00:11:28.953832Z",
+      "params": {
+        "aspect_ratio": "16:9",
+        "height": 1520,
+        "quality": "high",
+        "resolution": "2k",
+        "width": 2688
+      },
+      "prompt": "Use the reference image only as a hint of the same clinic's warm restrained design language. Beautifully designed, credible private plastic surgery medical environment, pristine modern clinical preparation room with realistic medical architectural details, soft controlled lighting, stainless steel and warm neutral design where appropriate. Professional, hygienic, serious, elegant but not spa-like. No people, no surgery, no unrealistic apparatus, no text, no logos. Premium medical architectural photography, 16:9.",
+      "outputs": [
+        {
+          "file": "public/assets/aurelia/surgery-suite.webp",
+          "kb": 197
+        },
+        {
+          "file": "public/assets/aurelia/surgery-suite-640.webp",
+          "width": 640,
+          "kb": 21
+        },
+        {
+          "file": "public/assets/aurelia/surgery-suite-1024.webp",
+          "width": 1024,
+          "kb": 44
+        },
+        {
+          "file": "public/assets/aurelia/surgery-suite-1600.webp",
+          "width": 1600,
+          "kb": 106
+        },
+        {
+          "file": "public/assets/aurelia/surgery-suite-2400.webp",
+          "width": 2400,
+          "kb": 197
+        }
+      ],
+      "sourceSize": "2688x1520",
+      "file": "surgery-suite.webp"
+    },
+    {
+      "source": "production/raw/treatment-consultation.webp",
+      "model": "GPT Image 2.6 (gpt_image_2_6)",
+      "jobId": "e8745016-245d-4151-9023-6b37fc496135",
+      "createdAt": "2026-11-17T00:11:28.674882Z",
+      "params": {
+        "aspect_ratio": "4:5",
+        "height": 2240,
+        "quality": "high",
+        "resolution": "2k",
+        "width": 1792
+      },
+      "prompt": "Use the reference image only for the architectural design language, materials and lighting of the same fictional clinic (ivory limestone, travertine, ribbed glass, champagne metal, oak). Luxury aesthetic medicine consultation in a sophisticated private consultation room of that clinic. A fictional adult medical professional in professional clinical clothing speaking with a fictional adult patient, both seated at a refined desk. Respectful, calm, realistic interaction without invasive procedures. Warm ivory architecture, discreet clinical equipment, refined modern environment, authentic human proportions, documentary luxury editorial photography. No logos, no text, no visible credentials or name badges, no fabricated medical procedures. Vertical 4:5.",
+      "outputs": [
+        {
+          "file": "public/assets/aurelia/treatment-consultation.webp",
+          "kb": 395
+        },
+        {
+          "file": "public/assets/aurelia/treatment-consultation-640.webp",
+          "width": 640,
+          "kb": 55
+        },
+        {
+          "file": "public/assets/aurelia/treatment-consultation-1024.webp",
+          "width": 1024,
+          "kb": 121
+        },
+        {
+          "file": "public/assets/aurelia/treatment-consultation-1600.webp",
+          "width": 1600,
+          "kb": 283
+        },
+        {
+          "file": "public/assets/aurelia/treatment-consultation-2400.webp",
+          "width": 1792,
+          "kb": 395
+        }
+      ],
+      "sourceSize": "1792x2240",
+      "file": "treatment-consultation.webp"
+    }
+  ]
+}
