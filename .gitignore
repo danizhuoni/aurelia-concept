@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.DS_Store
+# Heavy raw generations and API logs stay local (optimised copies live in public/assets/aurelia)
+production/raw/
+production/rejected/
+production/logs/

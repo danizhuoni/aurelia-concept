@@ -1,0 +1,267 @@
+@import '@fontsource-variable/cormorant-garamond/wght.css';
+@import '@fontsource-variable/cormorant-garamond/wght-italic.css';
+@import '@fontsource-variable/manrope/wght.css';
+@import 'tailwindcss';
+
+@theme {
+  --color-ink: #131311; /* near-black charcoal */
+  --color-charcoal: #24211f; /* charcoal brown */
+  --color-ivory: #f2ede6;
+  --color-pearl: #e9e2d8;
+  --color-champagne: #dccbb7;
+  --color-bronze: #b59c7e;
+  --color-taupe: #8e8175;
+  --color-taupe-deep: #665b51; /* AA body text on ivory */
+  --color-gold: #b59c7e; /* alias of bronze */
+  --color-gold-deep: #85705a; /* AA-large accent on ivory */
+
+  --font-serif: 'Cormorant Garamond Variable', 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Manrope Variable', 'Manrope', ui-sans-serif, system-ui, sans-serif;
+
+  --ease-lux: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-lux-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --breakpoint-3xl: 1920px;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+  body {
+    @apply bg-ivory text-charcoal font-sans antialiased;
+    font-feature-settings: 'ss01', 'kern';
+    overflow-x: clip;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: var(--color-champagne);
+    color: var(--color-charcoal);
+  }
+  :focus-visible {
+    outline: 1.5px solid var(--color-gold-deep);
+    outline-offset: 4px;
+    border-radius: 2px;
+  }
+  .on-dark :focus-visible,
+  .on-dark:focus-visible {
+    outline-color: var(--color-champagne);
+  }
+  img,
+  video {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+@layer components {
+  /* Editorial type scale */
+  .display {
+    font-family: var(--font-serif);
+    font-weight: 330;
+    letter-spacing: -0.02em;
+    line-height: 0.92;
+  }
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+  }
+  .lede {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(1.35rem, 1.1rem + 0.9vw, 1.9rem);
+    line-height: 1.35;
+    letter-spacing: -0.005em;
+  }
+  .body-copy {
+    font-size: 0.9875rem;
+    line-height: 1.8;
+    color: var(--color-taupe-deep);
+  }
+
+  /* Reveal mask: each line sits in an overflow-hidden wrapper */
+  .mask-line {
+    display: block;
+    overflow: hidden;
+    /* room for descenders (y, g, p) and italic overhangs inside the mask */
+    padding-bottom: 0.16em;
+    margin-bottom: -0.16em;
+    padding-right: 0.06em;
+  }
+  .mask-line > span {
+    display: block;
+    will-change: transform;
+  }
+
+  /* Thin rule used throughout */
+  .hairline {
+    height: 1px;
+    background: currentColor;
+    opacity: 0.22;
+  }
+
+  /* Buttons */
+  .btn {
+    @apply relative inline-flex items-center gap-4 overflow-hidden rounded-full border px-7 py-3.5 text-[0.7rem] font-semibold tracking-[0.26em] uppercase transition-colors duration-500;
+    transition-timing-function: var(--ease-lux);
+  }
+  .btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    transform: translateY(101%);
+    transition: transform 0.7s var(--ease-lux);
+    z-index: 0;
+  }
+  .btn > * {
+    position: relative;
+    z-index: 1;
+  }
+  .btn:hover::before,
+  .btn:focus-visible::before {
+    transform: translateY(0);
+  }
+  .btn-dark {
+    @apply border-charcoal bg-charcoal text-ivory;
+  }
+  .btn-dark::before {
+    background: var(--color-gold-deep);
+  }
+  .btn-outline {
+    @apply border-charcoal/30 text-charcoal hover:text-ivory;
+  }
+  .btn-outline::before {
+    background: var(--color-charcoal);
+  }
+  .btn-light {
+    @apply border-ivory/45 text-ivory hover:text-charcoal;
+  }
+  .btn-light::before {
+    background: var(--color-ivory);
+  }
+  .btn-champagne {
+    @apply border-champagne bg-champagne text-ink;
+  }
+  .btn-champagne::before {
+    background: var(--color-ivory);
+  }
+  .btn .btn-arrow {
+    transition: transform 0.6s var(--ease-lux);
+  }
+  .btn:hover .btn-arrow {
+    transform: translateX(4px);
+  }
+
+  /* Underline link */
+  .link-line {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: background-size 0.6s var(--ease-lux);
+    padding-bottom: 2px;
+  }
+  .link-line:hover,
+  .link-line:focus-visible,
+  .link-line[aria-current='true'] {
+    background-size: 100% 1px;
+  }
+
+  /* Media frames */
+  .media-frame {
+    position: relative;
+    overflow: hidden;
+    background: var(--color-pearl);
+  }
+  .media-frame > img,
+  .media-frame > video,
+  .media-frame > picture > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Subtle grain to unify generated imagery */
+  .grain::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.06;
+    mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  /* Form */
+  .field-input {
+    @apply w-full border-0 border-b bg-transparent px-0 pt-2 pb-3 text-base text-charcoal transition-colors duration-300 outline-none placeholder:text-taupe-deep/60;
+    border-color: color-mix(in oklab, var(--color-charcoal) 25%, transparent);
+    border-radius: 0;
+  }
+  .field-input:focus {
+    border-color: var(--color-charcoal);
+    box-shadow: 0 1px 0 0 var(--color-charcoal);
+  }
+  .field-input[aria-invalid='true'] {
+    border-color: #8c3b2e;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
+
+@keyframes scrollcue {
+  0% {
+    transform: translateY(-100%);
+  }
+  60%,
+  100% {
+    transform: translateY(200%);
+  }
+}
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+/* Reduced motion: no transitions beyond opacity, no smooth scroll */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
